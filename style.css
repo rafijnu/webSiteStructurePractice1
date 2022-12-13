@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+
+}
+
+h2{
+    text-align: center;
+
+}
+
+.header
+{
+    height: 100px;
+    background-color: red;
+}
+
+.content
+{
+    background-color: blue;
+    overflow: hidden;
+}
+
+.content .left
+{
+    height: 400px;
+    width: 25%;
+    background-color: blueviolet;
+    float:left;
+}
+
+.content .article
+{
+    height: 400px;
+    width: 25%;
+    background-color:aquamarine;
+    float:left;
+    overflow: hidden;
+}
+
+.content .right
+{
+    height: 400px;
+    width: 25%;
+    background-color: orange;
+    float: right;
+    
+}
+
+
+.footer
+{
+    height: 100px;
+    background-color:black;
+}
